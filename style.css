@@ -1,5 +1,12 @@
+nav {
+    margin-bottom: 1vh;
+}
 .navbar {
     background-color: #424242;
+}
+
+.fa-bars{
+    color: black;
 }
 
 .navbar-item {
@@ -55,6 +62,13 @@
         transform: scale(1.15);
     }
     #aboutMe {
-        font-size: 1.3em;
+        font-size: 1.2em;
+    }
+}
+
+@media (min-width: 1200px){
+    .portfolioPicture {
+        /* max-height: 50vh; */
+        width: 85%;
     }
 }
