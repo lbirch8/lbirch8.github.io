@@ -1,0 +1,60 @@
+.navbar {
+    background-color: #424242;
+}
+
+.navbar-item {
+    margin-right: 1px;
+}
+
+.navbar-item :hover {
+    background-color: white;
+}
+
+/* changes color of navbar link text */
+.navbar-nav>.navbar-item>.nav-link {
+    color: white;
+}
+
+/* Changes navbar on hover */
+.navbar-nav>.navbar-item>.nav-link:hover {
+    color: #424242;
+}
+
+.navbar-brand:any-link {
+    color: white;
+}
+
+.portfolioPicture {
+    /* max-height: 25vh; */
+    width: 100%;
+}
+
+/* mobile device size */
+@media (max-width:575px) {
+    .portfolioPicture {
+        /* max-width: 100%; */
+        display: none;
+    }
+
+    #aboutMe {
+        font-size: 1.1em;
+    }
+}
+
+/* tablet size */
+@media (min-width:768px) {
+
+    #aboutMe {
+        font-size: 1.2em;
+    }
+}
+
+/* laptop size */
+@media (min-width: 992px) {
+    .navbar-nav>.navbar-item>.nav-link:hover {
+        transform: scale(1.15);
+    }
+    #aboutMe {
+        font-size: 1.3em;
+    }
+}
